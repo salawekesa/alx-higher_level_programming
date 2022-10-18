@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-"""This module defines a Reactangle"""
+"""A class that defines a rectangle"""
 
 
 class Rectangle:
-    """This class is an empty class """
+    """An empty class that represents a rectangle"""
     pass
