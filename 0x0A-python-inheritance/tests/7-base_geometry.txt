@@ -32,7 +32,7 @@ Checking too many arguments for area:
           ...
 	  TypeError: area() takes 1 positional argument but 2 were given
 
-Checking integer validator for passing integer:
+Checking an integer validator for passing integer:
 	  >>> b.integer_validator("integer", 1)
 
 Checking for integer == 0:
@@ -93,7 +93,7 @@ Checking for non-integer types:
           ...
           TypeError: bytearrays must be an integer
 
-Checking for no arguments to integer_validator:
+Checking for no arguments to the integer_validator:
 	  >>> b.integer_validator()
 	  Traceback (most recent call last):
           ...
