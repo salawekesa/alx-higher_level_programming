@@ -4,5 +4,5 @@
 
 def read_file(filename=""):
     """prints out the text in the my_file_0.txt file"""
-    with open("my_file_0.txt", encoding="utf-8")as UTF8:
-        print(UTF8.read())
+    with open(filename, encoding="utf-8")as UTF8:
+        print(UTF8.read(),end="")
