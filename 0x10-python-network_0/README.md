@@ -1,1 +1,1 @@
-# Solutions to tasks on Python - Network #0
+# Solution to tasks on Python - Network #0
